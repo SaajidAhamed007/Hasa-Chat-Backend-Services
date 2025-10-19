@@ -1,0 +1,70 @@
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage / testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Build output / caches
+dist/
+build/
+tmp/
+temp/
+.cache/
+.parcel-cache/
+.turbo/
+
+# TypeScript (if used)
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors / IDE
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Firebase / emulators (if used)
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# Uploads (keep folder, ignore contents)
+uploads/*
+!uploads/.gitkeep
+
+# Lint cache
+.eslintcache
+
+# Secrets (do not commit service credentials)
+serviceAccount.json
