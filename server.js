@@ -5,11 +5,8 @@ import multer from "multer";
 import cloudinary from "./utils/cloudinary.js";
 import streamifier from "streamifier";
 import dotenv from "dotenv";
-import fs from "fs";
 
-const serviceAccount = JSON.parse(
-  fs.readFileSync("./serviceAccount.json", "utf8")
-);
+const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
 
 dotenv.config();
 
